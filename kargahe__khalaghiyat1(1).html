@@ -1,0 +1,240 @@
+<!doctype html><html lang="fa" dir="rtl"><head><meta charset="utf-8"><meta name="description" content="کارگاه خلاقیت؛ آموزش‌های قدم‌به‌قدم کاردستی و پروژه‌های خلاقانه، همراه با آموزش ساخت کاردستی ماینکرفت."><meta name="keywords" content="کارگاه خلاقیت, کاردستی, آموزش کاردستی, ماینکرفت, ساخت کریپر, ساخت زامبی, شمشیر ماینکرفت"><meta name="robots" content="index,follow"><meta property="og:title" content="کارگاه خلاقیت | دنیای ساختنی‌ها"><meta property="og:description" content="آموزش‌های کاردستی و پروژه‌های خلاقانه برای یادگیری و ساختن."><meta name="viewport" content="width=device-width,initial-scale=1"><title>کارگاه خلاقیت | دنیای ساختنی‌ها</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;700;800;900&display=swap');
+:root{--ink:#20243a;--muted:#687087;--bg:#f6f5fc;--purple:#7054e8;--pink:#ff7095;--line:#e9e6f4}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font-family:Vazirmatn,Tahoma,sans-serif;line-height:1.9}
+header{position:sticky;top:0;z-index:20;background:#ffffffed;backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}.nav{max-width:1200px;margin:auto;padding:12px 20px;display:flex;justify-content:space-between;align-items:center;gap:12px}.logo{font-size:1.2rem;font-weight:900;color:var(--purple)}nav{display:flex;gap:15px;flex-wrap:wrap}nav a{color:var(--ink);text-decoration:none;font-size:.88rem;font-weight:800}.wrap{max-width:1200px;margin:auto;padding:22px 20px}
+.hero{margin:24px auto;border-radius:30px;padding:42px;background:linear-gradient(125deg,#e6e0ff,#ffe4ed 55%,#dff9f8);display:grid;grid-template-columns:1.4fr .8fr;align-items:center;gap:20px}.hero h1{font-size:clamp(2rem,5vw,3.7rem);line-height:1.35;margin:12px 0}.hero p{color:#535c73}.hero-art{font-size:7rem;text-align:center}.pill{display:inline-block;background:#fff;padding:5px 14px;border-radius:30px;color:var(--purple);font-weight:900}.btn{border:0;background:var(--purple);color:#fff;padding:10px 17px;border-radius:13px;font:inherit;font-weight:800;cursor:pointer}.section-head{display:flex;justify-content:space-between;align-items:end;gap:12px;flex-wrap:wrap;margin:38px 0 15px}.section-head h2{margin:0;font-size:1.6rem}.section-head p{margin:0;color:var(--muted);font-size:.9rem}
+.notice{border:1px solid #ffe2a1;background:#fff5d9;border-radius:17px;padding:16px 19px;margin:17px 0}.notice.safe{background:#e8f8f5;border-color:#b8eee5}.toolbar{display:flex;gap:10px;flex-wrap:wrap;margin:15px 0}.toolbar input,.toolbar select{font:inherit;border:1px solid var(--line);background:white;border-radius:12px;padding:10px 13px;min-width:150px;flex:1}.count{color:var(--muted);font-size:.86rem}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.card{background:#fff;border:1px solid var(--line);border-radius:20px;padding:17px;display:flex;flex-direction:column;box-shadow:0 8px 25px #28234b08}.emoji{height:78px;display:grid;place-items:center;border-radius:15px;background:linear-gradient(135deg,#f0edff,#fff0f5);font-size:3rem}.card h3{margin:8px 0 3px;font-size:1.08rem}.card p{color:var(--muted);font-size:.88rem;margin:0 0 12px;flex:1}.tags{display:flex;gap:6px;flex-wrap:wrap;margin:7px 0 12px}.tag{background:#f0edff;color:#5c47bd;border-radius:30px;padding:2px 9px;font-size:.75rem;font-weight:800}.tag.budget{background:#e8f8f3;color:#18785e}.tag.level{background:#fff4d8;color:#916416}.card button{align-self:flex-start}.detail{display:none;background:#fff;border:1px solid var(--line);border-radius:22px;padding:22px;margin:20px 0;box-shadow:0 12px 32px #28234b0a}.detail.show{display:block}.detail h2{margin:4px 0}.detail-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}.detail ul,.detail ol{padding-right:22px}.detail li{margin:7px 0}.steps{background:#f8f6ff;border-radius:16px;padding:16px}.diagram{border:1px dashed #b8a9ef;background:#faf9ff;border-radius:16px;padding:15px;margin:12px 0}.diagram .flow{font-weight:800;color:#5b47bd;text-align:center}.close{float:left;border:0;border-radius:10px;background:#f0eef8;padding:7px 12px;font:inherit;cursor:pointer}.small{font-size:.82rem;color:var(--muted)}.about{background:linear-gradient(125deg,#eee9ff,#fff0f4);border:1px solid #e7e0fa;border-radius:22px;padding:25px;text-align:center}.about p{max-width:700px;margin:8px auto;color:#535c73}.support{background:#fff;border:1px solid var(--line);border-radius:22px;padding:24px;text-align:center}.support a{color:var(--purple);font-weight:900}.footer{text-align:center;color:var(--muted);padding:35px 15px}
+@media(max-width:850px){.grid{grid-template-columns:repeat(2,1fr)}.hero{grid-template-columns:1fr;padding:28px}.hero-art{font-size:4rem}.detail-grid{grid-template-columns:1fr}}@media(max-width:560px){.grid{grid-template-columns:1fr}.nav{align-items:flex-start;flex-direction:column}nav{gap:9px}.wrap{padding:16px 13px}.hero{padding:24px}}
+
+/* نسخه‌ی بهینه‌شده‌ی ظاهر */
+:root{--ink:#20243a;--muted:#687087;--bg:#f7f6ff;--purple:#6c4ee8;--pink:#ff7095;--line:#e8e4f5;--shadow:0 14px 38px #392b7910}
+body{background:radial-gradient(ellipse at 10% 0%,#eee9ff 0,transparent 34%),radial-gradient(ellipse at 95% 18%,#fff0f5 0,transparent 30%),var(--bg)}
+header{background:#ffffffdc;box-shadow:0 5px 24px #30205b0a}
+.logo{letter-spacing:-.3px}
+nav a{padding:7px 10px;border-radius:10px;transition:.2s}
+nav a:hover{background:#f0edff;color:var(--purple)}
+.wrap{max-width:1240px}
+.hero{position:relative;overflow:hidden;box-shadow:var(--shadow);border:1px solid #fff}
+.hero:after{content:"";position:absolute;width:220px;height:220px;border-radius:50%;border:30px solid #ffffff55;left:-60px;bottom:-130px;pointer-events:none}
+.hero h1{letter-spacing:-1px}
+.btn{box-shadow:0 7px 16px #7054e826;transition:transform .18s,box-shadow .18s,filter .18s}
+.btn:hover{transform:translateY(-2px);filter:brightness(1.04);box-shadow:0 10px 22px #7054e83b}
+.section-head{padding-bottom:10px;border-bottom:1px solid #e7e2f5}
+.toolbar{background:#fff;padding:12px;border:1px solid var(--line);border-radius:18px;box-shadow:var(--shadow)}
+.toolbar input{min-width:220px;outline:none;transition:border-color .2s,box-shadow .2s}
+.toolbar input:focus,.toolbar select:focus{border-color:var(--purple);box-shadow:0 0 0 4px #7054e81b}
+.grid{gap:18px}
+.card{position:relative;overflow:hidden;border-radius:22px;padding:18px;border:1px solid #e8e3f5;box-shadow:0 8px 26px #30205b09;transition:transform .2s,box-shadow .2s,border-color .2s}
+.card:before{content:"";position:absolute;top:0;right:0;left:0;height:4px;background:linear-gradient(90deg,#7054e8,#ff7095,#6ad9d0);opacity:.75}
+.card:hover{transform:translateY(-4px);box-shadow:0 16px 35px #30205b14;border-color:#d8cffb}
+.emoji{height:92px;background:linear-gradient(135deg,#f0edff,#fff0f5);font-size:3.3rem}
+.card h3{line-height:1.7}
+.card p{line-height:1.9}
+.tag{padding:3px 10px}
+.detail{border-radius:24px;box-shadow:var(--shadow);border-color:#ded7f5}
+.steps{background:linear-gradient(135deg,#f8f6ff,#fff9fc);border:1px solid #ebe5fb}
+.steps li{padding:4px 2px}
+.diagram{background:linear-gradient(135deg,#faf9ff,#f1fffc)}
+.notice{line-height:2}
+.about,.support{box-shadow:var(--shadow)}
+.footer{padding-bottom:45px}
+#count{background:#f0edff;color:#5b47bd;border-radius:30px;padding:5px 12px;font-weight:800}
+.empty-state{grid-column:1/-1;background:#fff;border:1px dashed #cfc5f3;border-radius:18px;padding:24px;text-align:center;color:var(--muted)}
+@media(max-width:560px){.hero{margin:16px auto;border-radius:22px}.hero h1{font-size:2rem}.toolbar{padding:9px}.toolbar input{min-width:100%}.card{padding:16px}}
+
+
+.school-guide{margin-top:20px;border-top:1px solid var(--line);padding-top:18px}
+.guide-box{background:#fbfaff;border:1px solid #e9e3ff;border-radius:16px;padding:15px;margin:12px 0}
+.guide-box h3{margin:0 0 8px;color:#5540b8}
+.guide-columns{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.guide-list{margin:6px 0;padding-right:22px}
+.guide-list li{margin:6px 0}
+.report-box{background:#f0fbf8;border:1px solid #ccefe5;border-radius:16px;padding:15px;margin-top:14px}
+.report-box textarea{width:100%;min-height:90px;font:inherit;border:1px solid var(--line);border-radius:10px;padding:10px;background:white}
+.guide-actions{display:flex;gap:9px;flex-wrap:wrap;margin:12px 0}
+.btn.secondary{background:#e9e5ff;color:#4e3bb0}
+@media(max-width:700px){.guide-columns{grid-template-columns:1fr}}
+
+
+@media print{
+ header,nav,.toolbar,.hero,.about,.support,.footer,.close,.guide-actions{display:none!important}
+ body{background:#fff!important;color:#111;font-size:11pt}
+ .wrap{max-width:none;padding:0}
+ #projectDetail{display:block!important;border:0;box-shadow:none;padding:0}
+ .detail-grid,.guide-columns{grid-template-columns:1fr 1fr}
+ .card{break-inside:avoid}
+ .guide-box,.report-box,.steps,.diagram{break-inside:avoid;background:#fff!important}
+ textarea{border:1px solid #777!important;min-height:70px}
+}
+
+
+/* افزونه‌های رابط کاربری؛ محتوای قبلی دست‌نخورده می‌ماند */
+nav a, button, .card, .project-card, .pill, .support, .about, .section-head h2, .footer {
+  transition: transform .22s ease, font-weight .22s ease, box-shadow .22s ease, color .22s ease, background-color .22s ease;
+}
+nav a:hover, .section-head h2:hover, .footer:hover, .about:hover, .support:hover {
+  font-weight: 900;
+  transform: translateY(-2px);
+}
+nav a:hover { color: var(--purple); }
+button:hover, .pill:hover { transform: translateY(-2px) scale(1.02); font-weight: 900; }
+.card:hover, .project-card:hover { transform: translateY(-4px); box-shadow: 0 12px 30px #7054e82b; }
+.minecraft-crafts { margin: 28px 0; padding: 24px; border-radius: 24px; background: linear-gradient(135deg,#e8fff1,#eaf3ff 55%,#f4eaff); border: 1px solid #d6e6f2; }
+.minecraft-crafts .craft-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:16px; }
+.minecraft-crafts .craft-tile { overflow:hidden; border-radius:18px; background:white; border:1px solid #dce4ef; box-shadow:0 5px 18px #182b4510; transition:transform .22s ease,box-shadow .22s ease; }
+.minecraft-crafts .craft-tile:hover { transform:translateY(-5px); box-shadow:0 12px 24px #183b5830; }
+.minecraft-crafts img { width:100%; height:185px; object-fit:cover; display:block; background:#dce7f2; }
+.minecraft-crafts .craft-body { padding:14px; }
+.minecraft-crafts h3 { margin:0 0 6px; }
+.minecraft-crafts .craft-tile:hover h3 { font-weight:900; color:#27804d; }
+.minecraft-crafts p { margin:4px 0 12px; }
+.minecraft-crafts a { color:#245cba; font-weight:800; text-decoration:none; }
+.minecraft-crafts a:hover { text-decoration:underline; }
+.bale-link { display:inline-flex; align-items:center; gap:8px; padding:8px 14px; border-radius:12px; background:#e9f6ff; color:#1766a8; text-decoration:none; font-weight:900; }
+@media(max-width:760px) { .minecraft-crafts .craft-grid { grid-template-columns:1fr; } .minecraft-crafts img { height:210px; } }
+
+</style></head><body>
+<header><div class="nav"><div class="logo">⚡ کارگاه خلاقیت</div><nav><a href="#projects">آموزش‌ها</a><a href="#safety">ایمنی</a><a href="#about">سازنده</a><a href="#support">پشتیبانی</a></nav></div></header>
+<main class="wrap"><section class="hero"><div><span class="pill">۳۲+ پروژه • آموزش قدم‌به‌قدم • فیلتر هزینه و سختی</span><h1>بساز، یاد بگیر،<br>خلاقیتت رو روشن کن! 💡</h1><p>از پنکه و چراغ RGB گیمینگ تا اسپیکر، سوت و کاردستی‌های خلاقانه؛ وسایل لازم، درجه سختی، سطح هزینه و نقشه هر پروژه را ببین.</p><a class="btn" href="#projects">دیدن آموزش‌ها 🚀</a></div><div class="hero-art">🛠️🎮💡</div></section>
+<div class="notice safe" id="safety"><b>🛡️ قانون طلایی ایمنی:</b> مدارها فقط آموزشی و کم‌ولتاژ هستند؛ فقط با باتری قلمی یا USB پنج‌ولت استاندارد و قطعات آماده طبق دفترچه سازنده کار کن. <b>هرگز به برق شهری، پریز یا سیم‌کشی خانه وصل نکن.</b> برای برش، سوراخ‌کاری، لحیم‌کاری، نصب موتور و هر کار ابزاری از بزرگ‌تر کمک بگیر. باتری لیتیومی را باز، سوراخ، له یا دستکاری نکن. اگر قطعه داغ شد، بو داد یا دود کرد، با کمک بزرگ‌تر منبع را جدا کن و دیگر استفاده نکن.</div>
+<section id="projects"><div class="section-head"><div><h2>⚙️ کتابخانه پروژه‌ها</h2><p>پروژه مناسب بودجه و مهارتت را با فیلترها پیدا کن.</p></div><span class="count" id="count"></span></div><div class="toolbar"><input id="search" placeholder="🔎 نام پروژه، وسیله یا نوع پروژه را بنویس..."></div><div class="grid" id="projectGrid"></div><article class="detail" id="projectDetail"><button class="close" onclick="closeProject()">بستن ✕</button><div id="projectContent"></div></article></section>
+<section id="about"><div class="section-head"><div><h2>💜 درباره سازنده</h2></div></div><div class="about"><div style="font-size:3rem">🎓✨</div><h2>محمد علی سعیدی کمال</h2><p><b style="color:#7054e8">هدف: کمک به بچه‌های ایران‌زمین 🇮🇷</b></p><p>این سایت با علاقه به ساختن، یادگرفتن و خلاقیت آماده شده است. امیدوارم آموزش‌ها به دوستانم کمک کند چیزهای تازه بسازند و از یادگیری لذت ببرند.</p><b>با آرزوی نمره‌ی خوب و موفقیت برای همه 🌟</b></div></section>
+
+<section class="minecraft-crafts" id="minecraft-crafts">
+  <div class="section-head"><div><h2>⛏️ کاردستی‌های ماینکرفت</h2><p>با کاغذ، قیچی و چسب، شخصیت‌ها و ابزارهای پیکسلی بساز!</p></div></div>
+  <div class="craft-grid">
+    <article class="craft-tile">
+      <img src="https://www.pixelpapercraft.com/assets/images/logo.png" alt="تصویر آموزش ساخت کریپر ماینکرفت با کاغذ" loading="lazy">
+      <div class="craft-body"><h3>ساخت کریپر کاغذی</h3><p>وسایل: کاغذ شطرنجی یا مقوای نازک، مداد، خط‌کش، قیچی و چسب. الگو را چاپ کن، ببُر، تا بزن و قطعات را بچسبان.</p><a href="https://www.pixelpapercraft.com/papercraft/4f1b1e1a6f923f8035000002/creeper" target="_blank" rel="noopener">دیدن الگو و آموزش چاپ ↗</a> · <a href="https://www.pixelpapercraft.com/papercraft/4f1b1e1a6f923f8035000002/creeper" target="_blank" rel="noopener">الگوی چاپی</a></div>
+    </article>
+    <article class="craft-tile">
+      <img src="https://www.pixelpapercraft.com/assets/images/logo.png" alt="نمونه و الگوی کاردستی کاغذی ماینکرفت" loading="lazy">
+      <div class="craft-body"><h3>ساخت زامبی کاغذی</h3><p>الگوی یک شخصیت مکعبی را چاپ کن، دور خطوط را با دقت ببُر، روی خط‌چین‌ها تا بزن و زبانه‌ها را از داخل بچسبان.</p><a href="https://www.pixelpapercraft.com/papercraft/4f558638a0f478996e000020/zombie" target="_blank" rel="noopener">دیدن الگوهای زامبی ↗</a></div>
+    </article>
+    <article class="craft-tile">
+      <img src="https://www.pixelpapercraft.com/assets/images/logo.png" alt="شمشیر الماسی ماینکرفت برای ایده گرفتن" loading="lazy">
+      <div class="craft-body"><h3>ساخت شمشیر ماینکرفت</h3><p>طرح پیکسلی شمشیر را روی مقوا بکش، دو نسخه ببُر، یک نوار مقوا برای ضخامت وسط بگذار و دو طرف را به هم بچسبان؛ از شمشیر فقط برای بازی نمایشی استفاده کن.</p><a href="https://www.pixelpapercraft.com/papercraft/4f1baa0fcb1c433c0400007f/diamond-sword" target="_blank" rel="noopener">دیدن الگوی شمشیر الماسی ↗</a></div>
+    </article>
+  </div>
+  <p class="small" style="margin-top:12px">همهٔ الگوهای بخش ماینکرفت از سایت Pixel Papercraft انتخاب شده‌اند. برای چاپ و دیدن تصاویر بیشتر، وارد صفحهٔ هر الگو شو. <a href="https://www.pixelpapercraft.com/" target="_blank" rel="noopener">رفتن به Pixel Papercraft ↗</a><br>نکتهٔ ایمنی: برای بریدن مقوا از قیچی مناسب استفاده کن و اگر لازم شد، از یک بزرگ‌تر کمک بگیر.</p>
+</section>
+
+<section id="support"><div class="section-head"><div><h2>📬 پشتیبانی و پیشنهادها</h2><p>برای پیشنهاد آموزش جدید یا گزارش مشکل سایت پیام بده.</p></div></div><div class="support"><div style="font-size:2.5rem">💬</div><p>پشتیبانی در روبیکا</p><p>شناسه پشتیبانی روبیکا: <b>ordakeee</b></p><p>شناسه اپلیکیشن بله: <b>ordakeee</b></p><a class="bale-link" href="https://ble.ir/ordakeee" target="_blank" rel="noopener">💬 پیام در بله</a><p class="small">برای ارتباط، شناسهٔ ordakeee را در روبیکا یا بله جست‌وجو کن.</p></div></section></main><footer class="footer">کارگاه خلاقیت • ساخته‌شده برای یادگیری و ایده‌پردازی 💜</footer>
+<script>
+const DATA={"projects": [{"title": "پنکه رومیزی USB", "emoji": "🌀", "type": "برقی", "budget": "اقتصادی", "level": "آسان", "materials": ["موتور DC پنج‌ولتی آماده", "پره پلاستیکی سبک و آماده", "کابل USB پنج‌ولت", "کلید آماده", "پایه مقوایی", "محافظ توری"], "steps": ["پایه پهن بساز و ستون را محکم روی آن بچسبان", "موتور را بالای ستون ثابت کن", "پره آماده را طبق راهنمای موتور نصب کن", "کلید آماده را در مسیر کابل USB قرار بده", "محافظ را دور پره نصب کن", "با منبع USB استاندارد و زیر نظر بزرگ‌تر چند ثانیه آزمایش کن."], "diagram": "USB پنج‌ولت ← کلید آماده ← موتور DC ← پره داخل محافظ", "safety": "پره را لمس نکن و از پره فلزی یا برق شهری استفاده نکن."}, {"title": "چراغ‌قوه LED", "emoji": "🔦", "type": "برقی", "budget": "اقتصادی", "level": "آسان", "materials": ["ماژول LED آماده دارای مقاومت", "جای‌باتری دو قلمی", "دو باتری قلمی هم‌نوع", "کلید", "لوله مقوایی"], "steps": ["لوله را اندازه دست ببر", "ماژول LED را در سر لوله ثابت کن", "جای‌باتری و کلید را طبق علامت مثبت و منفی وصل کن", "اتصال‌ها را عایق کن", "باتری‌ها را جا بزن و روشنایی را امتحان کن."], "diagram": "باتری ← کلید ← ماژول LED", "safety": "LED خام را بدون مقاومت وصل نکن و باتری‌ها را اتصال کوتاه نکن."}, {"title": "چراغ خواب ستاره‌ای", "emoji": "🌟", "type": "برقی", "budget": "اقتصادی", "level": "آسان", "materials": ["ریسه LED باتری‌خور آماده", "ظرف پلاستیکی شفاف", "کاغذ پوستی", "برچسب ستاره"], "steps": ["ظرف را بشوی و خشک کن", "ستاره‌های کاغذی را روی بدنه بچسبان", "ریسه را داخل ظرف قرار بده", "جعبه باتری را بیرون ظرف نگه دار", "درپوش را ببند و چراغ را روشن کن."], "diagram": "ریسه LED داخل محفظه خشک؛ جعبه باتری بیرون", "safety": "از شمع یا لامپ داغ استفاده نکن."}, {"title": "چراغ RGB گیمینگ", "emoji": "🌈", "type": "برقی", "budget": "اقتصادی", "level": "آسان", "materials": ["ریسه RGB پنج‌ولتی USB آماده با کنترلر", "طلق مات", "مقوا", "چسب دوطرفه"], "steps": ["پایه‌ای از مقوا بساز", "طلق مات را مثل تونل روی پایه قرار بده", "ریسه آماده را پشت طلق بچسبان", "کنترلر را بیرون محفظه بگذار", "USB را به منبع استاندارد پنج‌ولت وصل کن."], "diagram": "USB ← کنترلر RGB آماده ← ریسه", "safety": "ریسه را دستکاری نکن و زیر کاغذ یا پارچه نپوشان."}, {"title": "نور پشت مانیتور", "emoji": "🖥️", "type": "برقی", "budget": "اقتصادی", "level": "آسان", "materials": ["ریسه LED USB پنج‌ولتی", "گیره کابل", "چسب قابل جداشدن"], "steps": ["پشت مانیتور را تمیز کن", "ریسه را دور لبه پشتی بچسبان", "دریچه تهویه را باز بگذار", "کابل را با گیره به پایه میز هدایت کن", "کنترلر را در دسترس بگذار."], "diagram": "USB ← کنترلر ← ریسه پشت مانیتور", "safety": "دریچه تهویه را نپوشان و کابل را از مسیر پا دور نگه دار."}, {"title": "اسپیکر کوچک USB", "emoji": "🔊", "type": "برقی", "budget": "متوسط", "level": "متوسط", "materials": ["ماژول آمپلی‌فایر صوتی آماده پنج‌ولتی", "دو بلندگوی سازگار", "جعبه مقوایی", "کابل صدا", "USB"], "steps": ["مشخصات بلندگو را با ماژول تطبیق بده", "بلندگوها را در سوراخ‌های جعبه ثابت کن", "سیم‌ها را به خروجی علامت‌گذاری‌شده ماژول وصل کن", "ورودی صدا و USB را طبق دفترچه وصل کن", "صدا را از کم شروع کن."], "diagram": "USB پنج‌ولت ← آمپلی‌فایر آماده ← بلندگوها؛ ورودی صدا جدا", "safety": "اگر پایه‌ها را نمی‌شناسی از بزرگ‌تر کمک بگیر؛ به برق شهری وصل نکن."}, {"title": "سوت نی‌ای", "emoji": "📣", "type": "مکانیکی", "budget": "اقتصادی", "level": "آسان", "materials": ["نی ضخیم", "قیچی", "خط‌کش", "چسب کاغذی"], "steps": ["یک تکه نی ۸ تا ۱۰ سانتی‌متری ببر", "یک سر را با کمک بزرگ‌تر V کم‌عمق ببر", "لبه‌ها را صاف کن", "از سر صاف آرام فوت کن", "طول نی را کمی تغییر بده تا صدا عوض شود."], "diagram": "لوله نی + برش V در دهانه", "safety": "لبه‌ها را صاف کن و سوت را در دهان دیگران نگذار."}, {"title": "آلارم باز شدن در", "emoji": "🚪", "type": "برقی", "budget": "اقتصادی", "level": "آسان", "materials": ["بیزر فعال آماده", "کلید فشاری یا میکروسوئیچ", "منبع باتری مناسب بیزر", "سیم آماده", "مقوا"], "steps": ["بیزر و کلید را روی مقوا نصب کن", "مدار را طبق علامت قطعات و با کمک بزرگ‌تر ببند", "کلید را طوری قرار بده که با بازشدن در تغییر وضعیت دهد", "قبل از نصب روی در آزمایش کن."], "diagram": "باتری مناسب ← کلید فشاری ← بیزر", "safety": "ولتاژ مجاز بیزر را رعایت کن."}, {"title": "چراغ مطالعه USB", "emoji": "💡", "type": "برقی", "budget": "اقتصادی", "level": "آسان", "materials": ["چراغ LED USB آماده", "گیره بزرگ", "سیم روکش‌دار انعطاف‌پذیر", "بست"], "steps": ["چراغ آماده را به گیره وصل کن", "سیم روکش‌دار را به شکل گردن قابل تنظیم ثابت کن", "گیره را به میز وصل کن", "زاویه نور را تنظیم کن", "به USB پنج‌ولت بزن."], "diagram": "چراغ USB آماده؛ پایه فقط نگهدارنده است", "safety": "چراغ را نپوشان و کابل را شدید خم نکن."}, {"title": "چراغ راهنمایی سه‌رنگ", "emoji": "🚦", "type": "برقی", "budget": "اقتصادی", "level": "آسان", "materials": ["سه چراغ LED ماژول‌دار آماده", "مقوا", "سه کلید کوچک", "منبع مناسب"], "steps": ["سه پنجره قرمز و زرد و سبز روی مقوا بساز", "چراغ‌های ماژول‌دار را پشت پنجره‌ها نصب کن", "کلید هر چراغ را در دسترس بگذار", "هر رنگ را جداگانه امتحان کن."], "diagram": "منبع باتری ← کلیدها ← LEDهای ماژول‌دار", "safety": "LED خام را بدون مقاومت وصل نکن."}, {"title": "تاس الکترونیکی کیتی", "emoji": "🎲", "type": "برقی", "budget": "اقتصادی", "level": "متوسط", "materials": ["کیت آماده تاس الکترونیکی", "باتری طبق دفترچه", "جعبه مقوایی"], "steps": ["کیت را طبق دفترچه نصب کن", "اگر لحیم‌کاری لازم است بزرگ‌تر انجام دهد", "برد را داخل جعبه ثابت کن", "دکمه را از سوراخ بیرون بیاور", "با باتری مناسب امتحان کن."], "diagram": "دکمه ← برد تاس آماده ← LEDهای عدد", "safety": "مدار را فقط با باتری مناسب روشن کن."}, {"title": "چراغ حساس به تاریکی", "emoji": "🌙", "type": "برقی", "budget": "اقتصادی", "level": "متوسط", "materials": ["ماژول آماده حسگر نور با خروجی LED", "منبع مناسب", "قاب کوچک"], "steps": ["ماژول را داخل قاب نصب کن", "جلوی حسگر را باز بگذار", "LED سازگار را به خروجی وصل کن", "آستانه را طبق دفترچه تنظیم کن", "حسگر را بپوشان و روشن‌شدن چراغ را ببین."], "diagram": "نور محیط ← حسگر آماده ← چراغ", "safety": "ولتاژ روی ماژول را رعایت کن."}, {"title": "چراغ لمسی", "emoji": "👆", "type": "برقی", "budget": "اقتصادی", "level": "متوسط", "materials": ["ماژول کلید لمسی پنج‌ولتی", "LED ماژول‌دار", "USB", "پایه مقوایی"], "steps": ["ماژول را پشت سطح نازک غیر فلزی ثابت کن", "LED را به خروجی سازگار وصل کن", "USB را وصل کن", "سطح را لمس و عملکرد را بررسی کن."], "diagram": "USB ← ماژول لمسی ← LED", "safety": "دست و سطح باید خشک باشند."}, {"title": "چراغ خواب تغییررنگ", "emoji": "🎨", "type": "برقی", "budget": "اقتصادی", "level": "آسان", "materials": ["ریسه RGB آماده", "بطری مات", "کاغذ کالک", "پایه مقوایی"], "steps": ["بطری را خشک کن", "کاغذ کالک را داخلش بگذار", "ریسه را در پایه نصب کن", "بطری را روی پایه قرار بده", "رنگ را از کنترلر تغییر بده."], "diagram": "ریسه RGB در پایه؛ بطری پخش‌کننده نور", "safety": "از منبع نور کم‌حرارت استفاده کن."}, {"title": "دزدگیر کیف", "emoji": "🎒", "type": "برقی", "budget": "اقتصادی", "level": "آسان", "materials": ["بیزر باتری‌خور آماده", "کلید کشویی", "باتری سازگار", "جعبه کوچک", "بند"], "steps": ["بیزر و باتری را در جعبه قرار بده", "کلید را در دسترس نصب کن", "بند را به زبانه کلید وصل کن", "با کشیدن بند فعال‌شدن صدا را آزمایش کن."], "diagram": "باتری ← کلید کششی ← بیزر", "safety": "فقط وسیله آموزشی است و جای قفل واقعی را نمی‌گیرد."}, {"title": "دماسنج رومیزی", "emoji": "🌡️", "type": "برقی", "budget": "متوسط", "level": "متوسط", "materials": ["ماژول دماسنج دیجیتال آماده", "منبع مطابق دفترچه", "قاب مقوایی"], "steps": ["ماژول را در قاب نصب کن", "نمایشگر و حسگر را مسدود نکن", "منبع مناسب را وصل کن", "چند دقیقه صبر کن", "عدد را با دماسنج دیگر مقایسه کن."], "diagram": "حسگر دما ← نمایشگر آماده", "safety": "حسگر را در آب نگذار مگر ضدآب بودنش مشخص باشد."}, {"title": "سطل زباله درب‌اتوماتیک", "emoji": "🗑️", "type": "برقی", "budget": "متوسط", "level": "سخت", "materials": ["کیت آماده کنترل", "حسگر فاصله", "سرووموتور سازگار", "سطل سبک", "منبع ۵V"], "steps": ["در سطل را لولایی کن", "سروو را با بازوی مقوایی به در وصل کن", "حسگر را رو به جلو نصب کن", "کیت را دقیقاً طبق نقشه سازنده وصل کن", "با در سبک آزمایش کن."], "diagram": "حسگر ← برد آماده ← سروو ← در", "safety": "انگشت را نزدیک لولا نبر؛ از کیت آماده استفاده کن."}, {"title": "پنکه دو سرعته", "emoji": "🌀", "type": "برقی", "budget": "متوسط", "level": "متوسط", "materials": ["پنکه USB آماده", "کنترل‌کننده سرعت USB سازگار و آماده", "پایه", "بست"], "steps": ["پنکه را روی پایه محکم کن", "کنترل‌کننده سازگار را بین USB و پنکه قرار بده", "از سرعت کم شروع کن", "کابل را به پایه ببند."], "diagram": "USB ← کنترل‌کننده آماده ← پنکه", "safety": "مشخصات ولتاژ و جریان هر دو قطعه باید سازگار باشد."}, {"title": "دستگاه بخور سرد", "emoji": "💧", "type": "برقی", "budget": "متوسط", "level": "سخت", "materials": ["ماژول مه‌ساز اولتراسونیک USB پنج‌ولتی آماده", "مخزن مخصوص", "کابل سالم"], "steps": ["فقط ماژول آماده با دفترچه انتخاب کن", "مخزن را تا خط مجاز پر کن", "ماژول را طبق راهنمای سازنده نصب کن", "اتصال و کابل را خشک و بیرون مخزن نگه دار", "با نظارت بزرگ‌تر روشن کن."], "diagram": "ماژول مه‌ساز آماده در مخزن؛ برق در بخش خشک", "safety": "آب و برق را جدا نگه دار؛ قطعه را باز یا تعمیر نکن."}, {"title": "پاوربانک آموزشی ماژولی", "emoji": "🔋", "type": "برقی", "budget": "گران", "level": "سخت", "materials": ["ماژول پاوربانک استاندارد دارای حفاظت", "پک باتری آماده سازگار", "قاب عایق", "کابل"], "steps": ["فقط ماژول و پک آماده و سازگار را طبق دفترچه و با کمک بزرگ‌تر در قاب عایق نصب کن", "پیش از استفاده بزرگ‌تر اتصالات و شارژ اولیه را بررسی کند", "گزینه امن مدرسه ماکت بدون باتری است."], "diagram": "پک آماده ⇄ ماژول حفاظت و شارژ ⇄ USB", "safety": "باتری لیتیومی را باز، سوراخ، لحیم یا دست‌ساز نکن؛ باتری بادکرده را استفاده نکن."}, {"title": "اسپیکر بلوتوثی", "emoji": "🎧", "type": "برقی", "budget": "متوسط", "level": "متوسط", "materials": ["ماژول بلوتوث/آمپلی‌فایر آماده", "بلندگوی سازگار", "قاب", "USB پنج‌ولت"], "steps": ["بلندگو را در قاب ثابت کن", "ماژول آماده را در جایگاهش قرار بده", "بلندگو را به خروجی مشخص‌شده وصل کن", "USB را طبق دفترچه بده", "با گوشی جفت کن و صدا را کم شروع کن."], "diagram": "USB ← ماژول بلوتوث آماده ← بلندگو", "safety": "باتری داخلی اضافه نکن؛ صدای بلند به گوش آسیب می‌زند."}, {"title": "نوار نور میز گیمینگ", "emoji": "🎮", "type": "برقی", "budget": "اقتصادی", "level": "آسان", "materials": ["ریسه RGB USB", "طلق مات", "چسب جداشدنی", "گیره کابل"], "steps": ["لبه زیرین میز را تمیز کن", "طلق را برای پخش نور نصب کن", "ریسه را پشت آن بچسبان", "کنترلر را کنار میز بگذار", "کابل را با گیره ثابت کن."], "diagram": "USB ← کنترلر RGB ← ریسه", "safety": "نزدیک مایعات یا سطح داغ نصب نکن."}, {"title": "پایه هدفون RGB", "emoji": "🎧", "type": "برقی", "budget": "اقتصادی", "level": "آسان", "materials": ["مقوای چندلایه یا چوب سبک", "ریسه RGB USB", "بست کابل", "چسب"], "steps": ["پایه پهن با قوس بالایی بساز", "ریسه را دور پایه بپیچ", "کنترلر را در دسترس بگذار", "پایداری پایه را قبل از گذاشتن هدفون بررسی کن."], "diagram": "ریسه آماده روی پایه مکانیکی", "safety": "پایه باید محکم باشد و سیم زیر فشار نماند."}, {"title": "استند موبایل گیمینگ نورانی", "emoji": "📱", "type": "برقی", "budget": "اقتصادی", "level": "آسان", "materials": ["مقوای چندلایه", "ریسه USB آماده", "طلق مات", "چسب"], "steps": ["تکیه‌گاه شیب‌دار و شیار نگهدارنده گوشی بساز", "ریسه را پشت طلق بچسبان", "کابل را از شیار جداگانه عبور بده", "گوشی را روی پایه قرار بده."], "diagram": "پایه نگهدارنده + نور تزئینی USB", "safety": "گوشی در حال شارژ را روی قسمت گرم یا پوشیده نگذار."}, {"title": "میکروفون گیمینگ ماکتی", "emoji": "🎙️", "type": "مکانیکی", "budget": "اقتصادی", "level": "آسان", "materials": ["لوله مقوایی", "اسفنج تمیز", "پارچه توری", "پایه", "رنگ"], "steps": ["لوله را اندازه ببر", "اسفنج را در سر آن قرار بده", "توری را روی آن بکش", "پایه را از مقوا بساز", "بدنه را رنگ کن."], "diagram": "بدنه لوله‌ای + سر اسفنجی + پایه", "safety": "ماکت است و صدا ضبط نمی‌کند؛ اسفنج را در دهان نگذار."}, {"title": "دکمه میانبر USB آماده", "emoji": "🟣", "type": "برقی", "budget": "گران", "level": "متوسط", "materials": ["کیت دکمه USB قابل‌برنامه‌ریزی آماده", "قاب مقوایی", "برچسب"], "steps": ["کیت را طبق دفترچه به رایانه وصل کن", "قاب بزرگ برای دکمه بساز", "برچسب عملکرد را نصب کن", "تنظیمات را فقط با نرم‌افزار رسمی کیت انجام بده."], "diagram": "دکمه USB آماده ← رایانه", "safety": "صفحه‌کلید یا پورت USB را باز نکن و سیمی به پورت وصل نکن."}, {"title": "چراغ واکنشی به صدا", "emoji": "🎵", "type": "برقی", "budget": "متوسط", "level": "متوسط", "materials": ["ماژول آماده LED واکنش‌گرا به صدا", "طلق مات", "USB پنج‌ولت"], "steps": ["ماژول را پشت طلق ثابت کن", "حساسیت میکروفون را طبق دفترچه تنظیم کن", "آرام دست بزن و واکنش نور را ببین", "ماژول را در قاب خشک بگذار."], "diagram": "میکروفون ← کنترلر آماده ← LED", "safety": "از صدای بسیار بلند استفاده نکن و ماژول را خیس نکن."}, {"title": "تایمر مطالعه LED", "emoji": "⏱️", "type": "برقی", "budget": "اقتصادی", "level": "آسان", "materials": ["تایمر دیجیتال باتری‌خور آماده", "قاب", "برچسب", "چراغ LED تزئینی باتری‌خور"], "steps": ["تایمر را در قاب قرار بده", "دکمه‌ها را بیرون بگذار", "زمان مطالعه را تنظیم کن", "چراغ تزئینی مستقل را نصب کن", "هر دو را با باتری مناسب راه‌اندازی کن."], "diagram": "تایمر آماده + چراغ تزئینی مستقل", "safety": "دریچه باتری و دکمه‌ها را مسدود نکن."}, {"title": "چراغ دوچرخه", "emoji": "🚲", "type": "برقی", "budget": "اقتصادی", "level": "آسان", "materials": ["چراغ LED باتری‌خور آماده", "بست مخصوص", "برچسب بازتابنده"], "steps": ["چراغ را با بست مخصوص به دوچرخه وصل کن", "زاویه را رو به مسیر تنظیم کن", "درپوش باتری و استحکام بست را بررسی کن."], "diagram": "چراغ آماده باتری‌خور", "safety": "جایگزین چراغ استاندارد و تجهیزات ایمنی دوچرخه نیست."}, {"title": "هشدار رطوبت گلدان", "emoji": "🪴", "type": "برقی", "budget": "متوسط", "level": "متوسط", "materials": ["ماژول آماده حسگر رطوبت خاک", "منبع مناسب", "گلدان"], "steps": ["حسگر را در خاک قرار بده", "ماژول را بیرون گلدان و خشک نگه دار", "آستانه هشدار را طبق دفترچه تنظیم کن", "خاک خشک و مرطوب را مقایسه کن."], "diagram": "حسگر رطوبت ← ماژول هشدار", "safety": "ماژول و باتری را از آب دور نگه دار."}, {"title": "چراغ هشدار چشمک‌زن", "emoji": "🚨", "type": "برقی", "budget": "اقتصادی", "level": "آسان", "materials": ["چراغ چشمک‌زن باتری‌خور آماده", "بست", "بازتابنده"], "steps": ["چراغ آماده را روی پایه نصب کن", "بازتابنده را اضافه کن", "حالت چشمک‌زن را انتخاب کن", "بست را محکم کن."], "diagram": "چراغ آماده مستقل", "safety": "نور را مستقیم به چشم دیگران نتابان."}, {"title": "تستر پیوستگی کیتی", "emoji": "🔎", "type": "برقی", "budget": "متوسط", "level": "سخت", "materials": ["کیت تستر پیوستگی باتری‌خور آماده", "پراب روکش‌دار", "محفظه عایق"], "steps": ["کیت را طبق دفترچه در محفظه قرار بده", "فقط روی سیم جداشده از هر منبع برق آزمایش کن", "پراب‌ها را به دو سر سیم بی‌برق بزن و نشانگر را ببین."], "diagram": "تستر باتری‌خور ← پراب‌ها ← سیم بی‌برق", "safety": "هرگز پریز یا سیم‌کشی خانه را آزمایش نکن."}, {"title": "کیس گیمینگ ماکتی نورانی", "emoji": "🖥️", "type": "برقی", "budget": "اقتصادی", "level": "آسان", "materials": ["جعبه شفاف", "ریسه RGB USB", "طلق رنگی", "بست کابل"], "steps": ["جعبه را شبیه کیس تزئین کن", "ریسه را داخل جعبه ثابت کن", "طلق را پشت پنجره‌ها بگذار", "کابل را از سوراخ لبه عبور بده."], "diagram": "USB ← کنترلر ← ریسه داخل ماکت", "safety": "داخل کیس واقعی رایانه چیزی نچسبان و تهویه را نپوشان."}, {"title": "زنگ رومیزی", "emoji": "🔔", "type": "برقی", "budget": "اقتصادی", "level": "آسان", "materials": ["بیزر باتری‌خور آماده", "کلید فشاری", "باتری سازگار", "جعبه کوچک"], "steps": ["بیزر و کلید را در جعبه ثابت کن", "طبق علامت سازنده وصل کن", "کلید را روی در جعبه قرار بده", "فشار بده و صدا را امتحان کن."], "diagram": "باتری ← کلید فشاری ← بیزر", "safety": "ولتاژ مجاز بیزر را رعایت کن."}, {"title": "شمارنده قدم ماکتی", "emoji": "👣", "type": "برقی", "budget": "گران", "level": "سخت", "materials": ["ماژول شمارنده قدم آماده با نمایشگر و باتری کارخانه‌ای", "قاب", "بند"], "steps": ["ماژول آماده را در قاب قرار بده", "طبق دفترچه راه‌اندازی کن", "آن را با بند روی دست یا لباس ثابت کن", "چند قدم راه برو و نمایشگر را بررسی کن."], "diagram": "ماژول آماده شمارنده قدم", "safety": "قاب را باز نکن و باتری داخلی را دستکاری نکن."}], "origami": [{"title": "پروانه", "emoji": "🦋", "steps": ["کاغذ مربع رنگی بردار؛ آن را از وسط افقی و عمودی تا بزن و باز کن تا علامت + بماند.", "دو قطر مربع را هم تا بزن و باز کن تا چهار خط مورب داشته باشی.", "دو ضلع روبه‌رو را به داخل فشار بده و کاغذ را به شکل مثلث دولایه جمع کن.", "مثلث را طوری بگذار که نوک آن رو به پایین باشد؛ گوشه‌های لایه جلویی را به سمت نوک بالایی تا بزن.", "شکل را برگردان؛ نوک پایینی را به سمت بالا و کمی از لبه بیرون بیاور؛ این نوک قفل بال‌ها می‌شود.", "نوک بیرون‌آمده را از روی لبه تا کن و پشت کار محکم کن؛ وسط را کمی جمع کن تا بال‌ها بالا بیایند."]}, {"title": "ماهی", "emoji": "🐟", "steps": ["یک مربع را از قطر تا کن و دوباره باز کن.", "دو گوشه چپ و راست را به خط مورب وسط نزدیک کن تا شکل بادبادکی بسازی.", "نوک باریک را کمی به داخل تا کن تا پوزه شکل بگیرد.", "انتهای پهن را به شکل دو مثلث کوچک به بیرون تا کن تا دم ساخته شود.", "شکل را برگردان؛ چشم بکش و لبه‌ها را صاف کن."]}, {"title": "درنا", "emoji": "🕊️", "steps": ["مربع را از دو قطر و دو محور تا بزن و باز کن.", "گوشه‌ها را به مرکز جمع کن تا مربع کوچک دولایه ساخته شود.", "لبه‌های پایین لایه جلو را به خط وسط برسان؛ نوک بالا را به پایین تا کن و باز کن.", "تاها را باز کن؛ نوک پایین را بالا بکش و کناره‌ها را به داخل بخوابان تا شکل بادبادکی باریک بسازی.", "کاغذ را برگردان و همین مراحل را برای پشت تکرار کن.", "دو نوک باریک را به بالا تا کن؛ یکی سر و دیگری دم می‌شود؛ نوک سر را کمی به داخل برگردان.", "دو بال را به طرفین باز کن و بدنه را آرام از پایین بکش تا حجم بگیرد."]}, {"title": "قلب", "emoji": "❤️", "steps": ["مربع را از وسط افقی تا بزن و باز کن.", "لبه پایین را تا خط وسط بالا بیاور.", "گوشه پایین راست و چپ را به خط وسط تا کن تا نوک قلب ساخته شود.", "کاغذ را برگردان؛ دو گوشه بالایی را مورب به داخل تا کن.", "گوشه‌های کوچک بالایی و کناری را کمی پشت کار تا بزن تا لبه‌ها گرد شوند."]}, {"title": "قورباغه جهنده", "emoji": "🐸", "steps": ["کاغذ مستطیلی را از وسط تا کن و باز کن.", "گوشه‌های بالایی را مورب تا بزن و باز کن تا خطوط X ایجاد شود.", "قسمت بالایی را از محل تقاطع خطوط به داخل جمع کن تا مثلث دولایه بسازی.", "دو گوشه مثلث بالا را به نوک بالایی تا کن تا پاهای جلویی ساخته شوند.", "لبه‌های چپ و راست قسمت پایین را به خط وسط بیاور.", "نیمه پایین را به بالا تا کن و سپس نیمه آن را برگردان تا فنر کاغذی ایجاد شود.", "قورباغه را برگردان؛ پشت آن را آرام فشار بده و رها کن."]}, {"title": "قایق", "emoji": "⛵", "steps": ["کاغذ مستطیلی را از وسط تا کن.", "دو گوشه بالایی را به خط وسط تا کن تا مثلث بسازی.", "لبه‌های پایین جلو و پشت را جداگانه به بالا تا کن.", "دو گوشه کوچک بیرون‌زده را دور شکل تا کن.", "از پایین شکل را باز کن و دو گوشه کناری را به هم نزدیک کن تا لوزی شود.", "لبه پایینی لوزی را بالا بکش؛ شکل را برگردان و لبه دیگر را هم بالا بکش.", "دوباره از پایین باز کن و دو گوشه را جدا کن تا قایق باز شود."]}, {"title": "روباه", "emoji": "🦊", "steps": ["مربع را از قطر تا کن تا مثلث شود؛ ضلع بلند پایین باشد.", "گوشه چپ را مورب به بالا تا کن تا گوش اول ساخته شود.", "گوشه راست را نیز به بالا تا کن تا گوش دوم ساخته شود.", "نوک پایین صورت را کمی به پشت تا کن تا پوزه کوتاه شود.", "شکل را برگردان و چشم، بینی و سبیل بکش."]}, {"title": "ستاره پنج‌پر", "emoji": "⭐", "steps": ["یک نوار کاغذی باریک و بلند بردار.", "یک گره ساده نزدیک یک سر نوار بزن؛ گره را صاف کن تا پنج‌ضلعی منظم شود.", "سر کوتاه را پشت پنج‌ضلعی پنهان کن.", "سر بلند را دور پنج‌ضلعی بپیچ؛ هر بار از روی یک ضلع عبور بده.", "سر باقی‌مانده را داخل لایه پشتی فرو کن.", "وسط هر ضلع را خیلی آرام به داخل فشار بده تا ستاره برجسته شود."]}, {"title": "گل لاله", "emoji": "🌷", "steps": ["یک مربع رنگی را از قطر تا کن تا مثلث شود.", "گوشه چپ مثلث را مورب به بالا ببر؛ نوک کمی از لبه بالایی بیرون بزند.", "گوشه راست را هم بالا ببر تا دو گلبرگ شکل بگیرند.", "نوک پایین را پشت کار تا کن تا گلبرگ‌ها ثابت شوند.", "برای ساقه، مربع سبز را مورب تا کن؛ باز کن و دو لبه را به خط وسط بیاور؛ دوباره از وسط تا کن.", "یک برگ باریک با تای مورب بساز و گل را کنار ساقه قرار بده."]}, {"title": "گربه", "emoji": "🐱", "steps": ["مربع را از قطر تا کن تا مثلث شود.", "گوشه چپ را مورب به بالا تا کن تا گوش اول ساخته شود.", "گوشه راست را نیز بالا تا کن تا گوش دوم ساخته شود.", "نوک پایین صورت را کمی به پشت تا کن تا چانه شکل بگیرد.", "شکل را برگردان و چشم، بینی و سبیل بکش."]}, {"title": "فیل", "emoji": "🐘", "steps": ["مربع را از قطر تا کن تا مثلث شود.", "دو گوشه کناری را به سمت پایین تا کن تا گوش‌های بزرگ شکل بگیرند.", "نوک بالایی را کمی به پشت تا کن تا بالای سر صاف شود.", "نوک پایینی را باریک و بلند به بالا و سپس کمی پایین تا کن تا خرطوم ساخته شود.", "شکل را برگردان و چشم و خط‌های خرطوم را بکش."]}, {"title": "پاکت نامه", "emoji": "✉️", "steps": ["مربع را به شکل لوزی جلوی خود بگذار.", "گوشه پایین را تا مرکز بالا بیاور.", "گوشه چپ و راست را به مرکز بیاور تا کمی روی هم قرار بگیرند.", "لبه پایین دو گوشه را کمی تا بزن تا پاکت بسته شود.", "گوشه بالایی را پایین بیاور و داخل شکاف قرار بده؛ می‌توانی یک قلب کوچک روی آن بچسبانی."]}]};DATA.projects = DATA.projects.filter(p => !p.title.includes("تستر پیوستگی کیتی"));
+DATA.projects.forEach(p=>{
+  if(p.steps.length<4){
+    const extras=[
+      "پیش از ادامه، قطعات را با فهرست وسایل تطبیق بده و مطمئن شو اندازه و نوع آن‌ها مناسب پروژه است.",
+      "قطعات را مرتب روی سطح کار بچین و بدنه یا پایه را بررسی کن تا لق نزند.",
+      "در پایان، نتیجه را آرام و ایمن آزمایش کن؛ اگر قطعه داغ شد، بو داد یا درست کار نکرد، استفاده را متوقف کن و از بزرگ‌تر کمک بگیر."
+    ];
+    while(p.steps.length<4) p.steps.push(extras[p.steps.length%extras.length]);
+  }
+});
+const $=id=>document.getElementById(id),bo={"اقتصادی":0,"متوسط":1,"گران":2},lo={"آسان":0,"متوسط":1,"سخت":2};
+function normalizeSearchText(value){return String(value||"").toLocaleLowerCase("fa").replace(/[يى]/g,"ی").replace(/ك/g,"ک").replace(/\u0640/g,"").replace(/\s+/g," ").trim()}
+function renderProjects(){
+  const raw=$("search").value, q=normalizeSearchText(raw);
+  let a=DATA.projects.map((p,i)=>({...p,i}));
+  a=a.filter(p=>{
+    const searchable=[p.title,p.type,p.budget,p.level,p.materials.join(" "),p.steps.join(" "),p.safety,p.diagram].join(" ");
+    return !q || normalizeSearchText(searchable).includes(q);
+  });
+  $("count").textContent=(q ? "نتیجه برای «"+raw+"»: " : "")+a.length+" پروژه از "+DATA.projects.length;
+  $("projectGrid").innerHTML=a.map(p=>`<article class="card"><div class="emoji">${p.emoji}</div><h3>${p.title}</h3><p>${p.type==="برقی"?"پروژه الکترونیکی کم‌ولتاژ":"کاردستی خلاقانه"} • ${p.steps.length} مرحله آموزش</p><div class="tags"><span class="tag budget">${p.budget}</span><span class="tag level">درجه: ${p.level}</span><span class="tag">${p.type}</span></div><button class="btn" onclick="showProject(${p.i})">وسایل و آموزش کامل</button></article>`).join("")||'<div class="empty-state">🔎 چیزی پیدا نشد.<br>نام دیگری امتحان کن یا بخشی از نام وسیله را بنویس.</div>';
+}
+function normalizeSearchText(s){return String(s||"").toLowerCase().replace(/[يى]/g,"ی").replace(/ك/g,"ک").replace(/\s+/g," ").trim()}
+function getProjectExtra(p){
+ const electric=p.type==="برقی";
+ const craft=p.type==="کاردستی"||p.type==="مکانیکی";
+ const title=p.title||"این پروژه";
+ let goal=electric?"آشنایی با یک وسیله کم‌ولتاژ، شناخت اجزای آن و یادگیری مونتاژ ایمن با قطعات آماده.":"تقویت مهارت اندازه‌گیری، تا کردن/برش دقیق، اتصال قطعات و ساخت یک وسیله کاربردی یا تزئینی.";
+ let time=p.level==="سخت"?"۶۰ تا ۱۲۰ دقیقه":p.level==="متوسط"?"۴۰ تا ۷۵ دقیقه":"۲۰ تا ۴۵ دقیقه";
+ let prep=electric?[
+ "میز کار را خشک، روشن و مرتب کن؛ نوشیدنی و آب را از قطعات دور بگذار.",
+ "نام و ولتاژ مجاز قطعات را از روی برچسب یا دفترچه بخوان و فقط قطعات سازگار را کنار هم بگذار.",
+ "منبع تغذیه را جدا نگه دار؛ تا پایان بررسی، باتری یا USB را وصل نکن.",
+ "سیم‌های آسیب‌دیده، قطعات ترک‌خورده یا باتری بادکرده را استفاده نکن؛ از بزرگ‌تر کمک بگیر."
+ ]:[
+ "سطح کار را تمیز کن و همه وسایل را پیش از شروع آماده کن.",
+ "اندازه‌ها را با خط‌کش مشخص کن و پیش از بریدن یا چسباندن، قطعات را بدون چسب کنار هم امتحان کن.",
+ "اگر قیچی، کاتر یا ابزار داغ لازم است، از معلم یا بزرگ‌تر کمک بگیر و خودت با ابزار خطرناک کار نکن.",
+ "قطعات را بر اساس مرحله‌های آموزش بچین تا چیزی گم یا اشتباه نصب نشود."
+ ];
+ let test=electric?[
+ "ابتدا بدون وصل کردن منبع، قطعات را با نقشه و علامت مثبت/منفی بررسی کن.",
+ "بررسی کن که سیم لخت بیرون نمانده باشد و هیچ اتصال فلزی ناخواسته‌ای دو نقطه را به هم وصل نکند.",
+ "منبع کم‌ولتاژ سازگار را وصل کن و نخستین آزمایش را کوتاه انجام بده؛ اگر گرما، بو یا صدای غیرعادی دیدی فوراً جدا کن.",
+ "عملکرد را چند بار با فاصله کوتاه تکرار کن و نتیجه را یادداشت کن."
+ ]:[
+ "وسیله را روی سطح صاف بگذار و بررسی کن که قطعات لق یا کج نباشند.",
+ "عملکرد اصلی آن را آرام و بدون فشار زیاد امتحان کن.",
+ "اگر لازم است، اندازه‌ها یا جای قطعات را کمی اصلاح کن و دوباره امتحان کن.",
+ "در پایان لبه‌های تیز، چسب اضافه و بخش‌های ناپایدار را برطرف کن."
+ ];
+ let trouble=electric?[
+ "وسیله روشن نمی‌شود: منبع تغذیه را جدا کن؛ جهت باتری، کلید، اتصال‌ها و سازگاری قطعات را طبق دفترچه بررسی کن.",
+ "نور یا صدا ضعیف است: باتری کم‌شارژ، اتصال شل یا قطعه ناسازگار را بررسی کن؛ قطعه را خودسرانه باز نکن.",
+ "قطعه داغ می‌شود، بوی سوختگی می‌آید یا سیم آسیب دیده: فوراً برق را جدا کن و دیگر روشن نکن؛ از معلم/بزرگ‌تر کمک بگیر."
+ ]:[
+ "قطعات به هم نمی‌رسند: پیش از چسب‌کاری، اندازه‌گیری را تکرار و فقط مقدار کمی اصلاح کن.",
+ "ساختار لق است: پایه را پهن‌تر کن، چسب را طبق زمان خشک‌شدنش نگه دار یا از بست مناسب استفاده کن.",
+ "ظاهر نهایی نامرتب است: اضافه‌ها را پس از خشک شدن جدا کن و از خط‌کش برای هم‌راستا کردن استفاده کن."
+ ];
+ let outcomes=[
+ "وسیله ساخته‌شده چه کاری انجام می‌دهد؟ پاسخ را با یک یا دو جمله بنویس.",
+ "کدام مرحله سخت‌تر بود و چطور آن را حل کردی؟",
+ "اگر زمان یا مواد بیشتری داشتی، چه چیزی را بهتر می‌کردی؟"
+ ];
+ return {goal,time,prep,test,trouble,outcomes};
+}
+function showProject(i){
+ const p=DATA.projects[i]; if(!p)return;
+ const x=getProjectExtra(p);
+ const steps=(p.steps||[]).slice();
+ if(steps.length<4){
+   const additions=p.type==="برقی"
+    ?["پیش از اتصال منبع، تمام قطعات و اتصال‌ها را با نقشه و برچسب قطعات دوباره بررسی کن.","در پایان، وسیله را کوتاه و زیر نظر بزرگ‌تر آزمایش کن و نتیجه را یادداشت کن."]
+    :["پیش از اتصال نهایی، قطعات را کنار هم قرار بده و اندازه و تراز بودن آن‌ها را بررسی کن.","پس از کامل شدن کار، استحکام و عملکرد وسیله را آرام آزمایش کن و نتیجه را یادداشت کن."];
+   while(steps.length<4) steps.push(additions[Math.min(steps.length-(p.steps||[]).length, additions.length-1)]);
+ }
+ $("projectContent").innerHTML=`
+ <div class="tags"><span class="tag budget">${p.budget}</span><span class="tag level">درجه: ${p.level}</span><span class="tag">${p.type}</span><span class="tag">زمان تقریبی: ${x.time}</span></div>
+ <h2>${p.emoji} ${p.title}</h2>
+ <p><b>هدف آموزشی:</b> ${x.goal}</p>
+ <div class="detail-grid">
+  <div><h3>🧰 وسایل لازم</h3><ul>${p.materials.map(v=>`<li>${v}</li>`).join("")}</ul>
+   <div class="diagram"><b>🗺️ نقشه مفهومی ساخت</b><p>${p.diagram}</p></div>
+   <div class="notice"><b>⚠️ نکته ایمنی:</b><br>${p.safety}</div>
+  </div>
+  <div class="steps"><h3>🧭 مراحل ساخت</h3><ol>${steps.map(v=>`<li>${v}</li>`).join("")}</ol>
+   <p class="small">زمان‌ها تقریبی‌اند و به سرعت کار و خشک‌شدن چسب بستگی دارند.</p>
+  </div>
+ </div>
+ <div class="school-guide">
+  <div class="guide-box"><h3>✅ ۱. آماده‌سازی قبل از ساخت</h3><ol class="guide-list">${x.prep.map(v=>`<li>${v}</li>`).join("")}</ol></div>
+  <div class="guide-columns">
+   <div class="guide-box"><h3>🧪 ۲. آزمایش و کنترل کیفیت</h3><ol class="guide-list">${x.test.map(v=>`<li>${v}</li>`).join("")}</ol></div>
+   <div class="guide-box"><h3>🛠️ ۳. عیب‌یابی و رفع مشکل</h3><ul class="guide-list">${x.trouble.map(v=>`<li>${v}</li>`).join("")}</ul></div>
+  </div>
+  <div class="guide-box"><h3>🎓 ۴. نتیجه‌گیری برای درس کار و فناوری</h3><ul class="guide-list">${x.outcomes.map(v=>`<li>${v}</li>`).join("")}</ul></div>
+  <div class="report-box"><h3>📝 فرم گزارش کار</h3>
+   <p><b>نام پروژه:</b> ${p.title}</p>
+   <p><b>هدف:</b> ${x.goal}</p>
+   <p><b>وسایل:</b> ${p.materials.join("، ")}</p>
+   <label for="reportNotes">مشاهدات، نتیجه آزمایش و پیشنهاد برای بهتر شدن:</label>
+   <textarea id="reportNotes" placeholder="مثلاً: وسیله را آزمایش کردم و نتیجه این بود که..."></textarea>
+   <div class="guide-actions"><button class="btn" onclick="window.print()">چاپ آموزش / ذخیره PDF</button><button class="btn secondary" onclick="document.getElementById('reportNotes').value=''">پاک کردن گزارش</button></div>
+   <p class="small">برای تحویل مدرسه، نام خودت، تاریخ انجام، عکس مراحل ساخت و نتیجه واقعی آزمایش را به گزارش اضافه کن. نتیجه را فقط بعد از آزمایش خودت بنویس.</p>
+  </div>
+ </div>`;
+ $("projectDetail").classList.add("show");
+ $("projectDetail").scrollIntoView({behavior:"smooth",block:"start"});
+}
+function closeProject(){$("projectDetail").classList.remove("show")}
+function normalizeSearchText(value){return value.toLocaleLowerCase("fa").replace(/[يى]/g,"ی").replace(/ك/g,"ک").replace(/\u0640/g,"").trim()}
+function renderProjects(){let raw=$("search").value, q=normalizeSearchText(raw);let a=DATA.projects.map((p,i)=>({...p,i}));a=a.filter(p=>!q||normalizeSearchText([p.title,p.type,p.budget,p.level,...(p.materials||[]),...(p.steps||[]),p.diagram,p.safety].join(" ")).includes(q));$("count").textContent=(q ? "نتیجه جست‌وجوی «"+raw+"»: " : "")+a.length+" پروژه از "+DATA.projects.length;$("projectGrid").innerHTML=a.map(p=>`<article class="card"><div class="emoji">${p.emoji}</div><h3>${p.title}</h3><p>${p.type==="برقی"?"پروژه الکترونیکی کم‌ولتاژ":"کاردستی خلاقانه"} • آموزش داخل کارت</p><div class="tags"><span class="tag budget">${p.budget}</span><span class="tag level">درجه: ${p.level}</span><span class="tag">${p.type}</span></div><button class="btn" onclick="showProject(${p.i})">وسایل و نقشه ساخت</button></article>`).join("")||"<p>موردی پیدا نشد؛ فیلترها را تغییر بده.</p>"}
+$("search").addEventListener("input",renderProjects);renderProjects();
+</script></body></html>
